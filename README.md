@@ -27,8 +27,8 @@ pin1.write_digital(pressed[1])
 However, the original reason to use 1023 instead of directly outputting 1, as done in the sample code above, is that it should be possible to use the `write_analog` function with values between 0 and 1023. This function is responsible for setting different power to the car motors, to achieve different motion. For example, this pseudo python code could be implemented to achieve much smoother turning:
 ```
 if direction == "left"/"right":
-    # For left pressed[0] = pressed[0] - 500
-    # For right pressed[1] = pressed[1] - 500
+    # For left pressed[0] = pressed[0] - 500 / pressed[0] = pressed[0]*0.5 etc.
+    # For right pressed[1] = pressed[1] - 500 / pressed[1] = pressed[1]*0.5 etc.
     pin0.write_analog(pressed[0])
     pin1.write_analog(pressed[1])
 ```
