@@ -1,5 +1,5 @@
 # Microbit NUCATS and FDM hackathon 2018
-Micro-bit code created by one of the teams at the *Newcastle University* hackathon organised by **NUCATS** and **FDM**.
+Micro-bit code created by one of the teams at the *Newcastle University* hackathon organised by **NUCATS** and **FDM**. The [BitBot](http://4tronix.co.uk/blog/?p=1490) was used for this project
 
 ## Usage
 In order to use this code, either in the MU or any other programming environment with microbit module available, firstly make sure it throws no errors regarding indentation.
